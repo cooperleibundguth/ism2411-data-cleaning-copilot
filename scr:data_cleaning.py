@@ -28,7 +28,7 @@ def handle_missing_values(df):
         df["quantity"] = pd.to_numeric(df["quantity"], errors="coerce")
 
     df = df.dropna(subset=["price", "quantity"])
-    return df
+    return df 
 
 
 
