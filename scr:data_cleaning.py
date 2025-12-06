@@ -35,7 +35,7 @@ def handle_missing_values(df):
 def remove_invalid_rows(df):
     df = df[df["price"] >= 0]
     df = df[df["quantity"] >= 0]
-    return df
+    return df 
 
 
 
